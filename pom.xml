@@ -255,4 +255,13 @@
       </profile>
 
    </profiles>
+
+  <distributionManagement>
+    <repository>
+      <id>corporate.nexus.repo</id>
+      <name>MyCo Internal Repository</name>
+      <url>http://nexus:8081/nexus</url>
+    </repository>
+  </distributionManagement>
+
 </project>
