@@ -264,12 +264,4 @@
     </repository>
   </distributionManagement>
 
-  <servers>
-  	<server>
-		<id>corporate.nexus.repo</id>
-        <username>deployment</username>
-        <password>deployment123</password>
-    </server>
-  </servers>
-
 </project>
