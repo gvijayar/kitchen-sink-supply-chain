@@ -323,12 +323,4 @@
 
    </profiles>
 
-  <distributionManagement>
-    <repository>
-      <id>artifactory</id>
-      <name>Internal Maven Repository</name>
-      <url>http://localhost:8081/artifactory/snapshots</url>
-    </repository>
-  </distributionManagement>
-
 </project>
