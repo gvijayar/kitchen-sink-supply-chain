@@ -42,9 +42,9 @@
 	</distributionManagement>
    
    <scm>
-   	<connection>https://github.com/gvijayar/kitchensink-example.git</connection>
-   	<url>https://github.com/gvijayar/kitchensink-example.git</url>
-   	<developerConnection>https://github.com/gvijayar/kitchensink-example.git</developerConnection>
+   	<connection>scm:git:https://github.com/gvijayar/kitchensink-example.git</connection>
+   	<url>scm:git:https://github.com/gvijayar/kitchensink-example.git</url>
+   	<developerConnection>scm:git:https://github.com/gvijayar/kitchensink-example.git</developerConnection>
    	<tag>HEAD</tag>
    </scm>
    
