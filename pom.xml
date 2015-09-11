@@ -258,9 +258,9 @@
 
   <distributionManagement>
     <repository>
-      <id>nexus</id>
-      <name>MyCo Internal Repository</name>
-      <url>http://nexus:8081/nexus/content/repositories/snapshots</url>
+      <id>artifactory</id>
+      <name>Internal Maven Repository</name>
+      <url>http://localhost:8081/artifactory</url>
     </repository>
   </distributionManagement>
 
