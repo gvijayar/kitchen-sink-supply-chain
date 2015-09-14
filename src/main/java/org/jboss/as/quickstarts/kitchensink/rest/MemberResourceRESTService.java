@@ -43,4 +43,9 @@ public class MemberResourceRESTService {
    public Member lookupMemberById(@PathParam("id") long id) {
       return em.find(Member.class, id);
    }
+   
+   public String getRandomText(){
+	   return "Hello";
+   }
+   
 }
