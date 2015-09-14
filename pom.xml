@@ -40,8 +40,15 @@
 		</snapshotRepository>
 
 	</distributionManagement>
-
+   
+   <scm>
+   	<connection>scm:git:https://github.com/gvijayar/kitchensink-example.git</connection>
+   	<url>scm:git:https://github.com/gvijayar/kitchensink-example.git</url>
+   	<developerConnection>scm:git:https://github.com/gvijayar/kitchensink-example.git</developerConnection>
+   </scm>
+   
    <dependencyManagement>
+   	
       <dependencies>
         <!-- JBoss distributes a complete set of Java EE 6 APIs including a Bill 
           of Materials (BOM). A BOM specifies the versions of a "stack" (or a collection) 
