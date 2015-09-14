@@ -45,7 +45,7 @@ public class MemberResourceRESTService {
    }
    
    public String getRandomText(){
-	   return "Hello THIS WORKS!!!";
+	   return "Hello THIS !!!";
    }
    
 }
