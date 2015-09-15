@@ -44,8 +44,19 @@ public class MemberResourceRESTService {
       return em.find(Member.class, id);
    }
    
-   public String getRandomText(){
-	   return "Hello THIS !!!";
+   @GET
+   @Produces("application/json")
+   @Path("/json")
+   public List<Member> listAllMembersJSON() {
+       return listAllMembers();
    }
+
+   @GET
+   @Produces("application/xml")
+   @Path("/xml")
+   public List<Member> listAllMembersXML() {
+       return listAllMembers();
+   }
+   
    
 }
