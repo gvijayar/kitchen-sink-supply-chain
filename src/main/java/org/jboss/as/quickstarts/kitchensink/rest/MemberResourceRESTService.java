@@ -44,7 +44,6 @@ public class MemberResourceRESTService {
       return em.find(Member.class, id);
    }
  
-   /*
    @GET
    @Produces("application/json")
    @Path("/json")
@@ -58,6 +57,5 @@ public class MemberResourceRESTService {
    public List<Member> listAllMembersXML() {
        return listAllMembers();
    }
-   */
    
 }
