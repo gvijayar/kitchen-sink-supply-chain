@@ -50,13 +50,13 @@ public class MemberResourceRESTService {
    public List<Member> listAllMembersJSON() {
        return listAllMembers();
    }
-   /*
+   
    @GET
    @Produces("application/xml")
    @Path("/xml")
    public List<Member> listAllMembersXML() {
        return listAllMembers();
-   }*/
+   }
    
    
 }
