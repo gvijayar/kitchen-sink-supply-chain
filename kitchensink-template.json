@@ -28,12 +28,6 @@
             "required": false
         },
         {
-            "description": "Custom hostname for https service route.  Leave blank for default hostname, e.g.: secure-<application-name>-<project>.<default-domain-suffix>",
-            "name": "HOSTNAME_HTTPS",
-            "value": "",
-            "required": false
-        },
-        {
             "description": "Git source URI for application",
             "name": "SOURCE_REPOSITORY_URL",
             "value": "https://github.com/gvijayar/kitchensink-example.git",
@@ -413,18 +407,6 @@
                                                 "fieldPath": "metadata.namespace"
                                             }
                                         }
-                                    },
-                                    {
-                                        "name": "HORNETQ_CLUSTER_PASSWORD",
-                                        "value": "${HORNETQ_CLUSTER_PASSWORD}"
-                                    },
-                                    {
-                                        "name": "HORNETQ_QUEUES",
-                                        "value": "${HORNETQ_QUEUES}"
-                                    },
-                                    {
-                                        "name": "HORNETQ_TOPICS",
-                                        "value": "${HORNETQ_TOPICS}"
                                     }
                                 ]
                             }
