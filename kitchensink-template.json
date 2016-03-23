@@ -8,10 +8,10 @@
             "tags": "eap,postgresql,javaee,java,database,jboss,xpaas",
             "version": "1.2.0"
         },
-        "name": "eap64-postgresql-s2i"
+        "name": "eap64-postgres92-custom"
     },
     "labels": {
-        "template": "eap64-postgresql-s2i",
+        "template": "eap64-postgres92-custom",
         "xpaas": "1.2.0"
     },
     "parameters": [
@@ -58,18 +58,6 @@
             "required": true
         },
         {
-            "description": "Queue names",
-            "name": "HORNETQ_QUEUES",
-            "value": "",
-            "required": false
-        },
-        {
-            "description": "Topic names",
-            "name": "HORNETQ_TOPICS",
-            "value": "",
-            "required": false
-        },
-        {
             "description": "Sets xa-pool/min-pool-size for the configured datasource.",
             "name": "DB_MIN_POOL_SIZE",
             "required": false
@@ -93,13 +81,6 @@
             "description": "Configures how much memory is dedicated to PostgreSQL for caching data.",
             "name": "POSTGRESQL_SHARED_BUFFERS",
             "required": false
-        },
-        {
-            "description": "HornetQ cluster admin password",
-            "name": "HORNETQ_CLUSTER_PASSWORD",
-            "from": "[a-zA-Z0-9]{8}",
-            "generate": "expression",
-            "required": true
         },
         {
             "description": "Database user name",
