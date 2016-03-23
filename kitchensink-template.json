@@ -330,18 +330,6 @@
                                 "name": "${APPLICATION_NAME}",
                                 "image": "${APPLICATION_NAME}",
                                 "imagePullPolicy": "Always",
-                                "volumeMounts": [
-                                    {
-                                        "name": "eap-keystore-volume",
-                                        "mountPath": "/etc/eap-secret-volume",
-                                        "readOnly": true
-                                    },
-                                    {
-                                        "name": "eap-jgroups-keystore-volume",
-                                        "mountPath": "/etc/jgroups-encrypt-secret-volume",
-                                        "readOnly": true
-                                    }
-                                ],
                                 "livenessProbe": {
                                     "exec": {
                                         "command": [
