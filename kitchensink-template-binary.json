@@ -28,24 +28,6 @@
             "required": false
         },
         {
-            "description": "Git source URI for application",
-            "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/gvijayar/kitchensink-example.git",
-            "required": true
-        },
-        {
-            "description": "Git branch/tag reference",
-            "name": "SOURCE_REPOSITORY_REF",
-            "value": "",
-            "required": false
-        },
-        {
-            "description": "Path within Git project to build; empty for root project directory.",
-            "name": "CONTEXT_DIR",
-            "value": "",
-            "required": false
-        },
-        {
             "description": "Path Containing Application Binary",
             "name": "APP_BUILD_FILE_URL",
             "value": "",
