@@ -46,6 +46,12 @@
             "required": false
         },
         {
+            "description": "Path Containing Application Binary",
+            "name": "APP_BUILD_FILE_URL",
+            "value": "",
+            "required": true
+        },          
+        {
             "description": "Database JNDI name used by application to resolve the datasource, e.g. java:/jboss/datasources/postgresql",
             "name": "DB_JNDI",
             "value": "java:jboss/datasources/PostgreSQLDS",
