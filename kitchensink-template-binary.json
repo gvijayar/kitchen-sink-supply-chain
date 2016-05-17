@@ -8,10 +8,10 @@
             "tags": "eap,postgresql,javaee,java,database,jboss,xpaas",
             "version": "1.2.0"
         },
-        "name": "eap64-postgres92-custom"
+        "name": "eap64-postgres92-binary"
     },
     "labels": {
-        "template": "eap64-postgres92-custom",
+        "template": "eap64-postgres92-binary",
         "xpaas": "1.2.0"
     },
     "parameters": [
@@ -24,6 +24,24 @@
         {
             "description": "Custom hostname for http service route.  Leave blank for default hostname, e.g.: <application-name>-<project>.<default-domain-suffix>",
             "name": "HOSTNAME_HTTP",
+            "value": "",
+            "required": false
+        },
+        {
+            "description": "Git source URI for application",
+            "name": "SOURCE_REPOSITORY_URL",
+            "value": "https://github.com/gvijayar/eap6-bin-deploy.git",
+            "required": true
+        },
+        {
+            "description": "Git branch/tag reference",
+            "name": "SOURCE_REPOSITORY_REF",
+            "value": "",
+            "required": false
+        },
+        {
+            "description": "Path within Git project to build; empty for root project directory.",
+            "name": "CONTEXT_DIR",
             "value": "",
             "required": false
         },
