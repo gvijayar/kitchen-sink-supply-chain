@@ -222,7 +222,13 @@
                             "kind": "ImageStreamTag",
                             "namespace": "${IMAGE_STREAM_NAMESPACE}",
                             "name": "jboss-eap64-openshift:1.2"
-                        }
+                        },
+                        "env": [
+                            {
+                                "name": "MAVEN_MIRROR_URL",
+                                "value": "http://nexus.apps.10.2.2.2.xip.io/content/repositories/jboss/"
+                            }
+                        ]
                     }
                 },
                 "output": {
