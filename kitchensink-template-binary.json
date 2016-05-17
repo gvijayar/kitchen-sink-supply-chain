@@ -232,7 +232,7 @@
                         "env": [
                             {
                                 "name": "APP_BUILD_FILE_URL",
-                                "value": "http://nexus.apps.10.2.2.2.xip.io/content/repositories/releases/com/jnli/kitchensink/1.0/kitchensink-1.0.war"
+                                "value": "${APP_BUILD_FILE_URL}"
                             }
                         ]
                     }
