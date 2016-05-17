@@ -8,10 +8,10 @@
             "tags": "eap,postgresql,javaee,java,database,jboss,xpaas",
             "version": "1.2.0"
         },
-        "name": "eap64-postgres92-custom"
+        "name": "eap64-postgres92-nexus"
     },
     "labels": {
-        "template": "eap64-postgres92-custom",
+        "template": "eap64-postgres92-nexus",
         "xpaas": "1.2.0"
     },
     "parameters": [
