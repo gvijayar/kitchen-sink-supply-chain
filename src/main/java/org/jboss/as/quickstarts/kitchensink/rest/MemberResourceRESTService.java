@@ -44,12 +44,12 @@ public class MemberResourceRESTService {
       return em.find(Member.class, id);
    }
  
-   @GET
+/*   @GET
    @Produces("application/json")
    @Path("/json")
    public List<Member> listAllMembersJSON() {
        return listAllMembers();
-   }
+   }*/
    
    @GET
    @Produces("application/xml")
