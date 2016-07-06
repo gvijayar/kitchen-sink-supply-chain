@@ -381,6 +381,10 @@
                                         "value": "application=${APPLICATION_NAME}"
                                     },
                                     {
+                                        "name": "JAVA_HOME",
+                                        "value": "/usr/lib/jvm/java-1.7.0"
+                                    },
+                                    {
                                         "name": "OPENSHIFT_KUBE_PING_NAMESPACE",
                                         "valueFrom": {
                                             "fieldRef": {
