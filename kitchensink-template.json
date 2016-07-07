@@ -30,7 +30,7 @@
         {
             "description": "Git source URI for application",
             "name": "SOURCE_REPOSITORY_URL",
-            "value": "https://github.com/gvijayar/kitchensink-example.git",
+            "value": "https://github.com/gvijayar/kitchen-sink-supply-chain.git",
             "required": true
         },
         {
