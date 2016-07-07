@@ -385,6 +385,10 @@
                                         "value": "/usr/lib/jvm/java-1.7.0"
                                     },
                                     {
+                                        "name": "HORNETQ_QUEUES",
+                                        "value": "orderinput_q,processing_q,response_q"
+                                    },
+                                    {
                                         "name": "OPENSHIFT_KUBE_PING_NAMESPACE",
                                         "valueFrom": {
                                             "fieldRef": {
