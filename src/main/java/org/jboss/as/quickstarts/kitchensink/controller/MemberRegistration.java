@@ -50,7 +50,7 @@ public class MemberRegistration {
       facesContext.addMessage(null, new FacesMessage(FacesMessage.SEVERITY_INFO, "Registered!", "Registration successful"));
       memberEventSrc.fire(newMember);
       initNewMember();
-      log.finest("New Member Initialization Completed!");
+      log.config("New Member Initialization Completed!");
    }
 
    @PostConstruct
