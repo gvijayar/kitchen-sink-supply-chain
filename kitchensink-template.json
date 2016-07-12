@@ -104,6 +104,11 @@
             "required": true
         },
         {
+            "description": "Custom JVM Arguments",
+            "name": "ADDN_JAVA_APPEND",
+            "required": false
+        }
+        {
             "description": "Generic build trigger secret",
             "name": "GENERIC_WEBHOOK_SECRET",
             "from": "[a-zA-Z0-9]{8}",
@@ -388,6 +393,10 @@
                                         "name": "HORNETQ_QUEUES",
                                         "value": "orderinput_q,processing_q,response_q"
                                     },
+                                    {
+                                        "name": "JAVA_OPTS_APPEND"
+                                        "value": "${ADDN_JAVA_APPEND}""
+                                    }
                                     {
                                         "name": "OPENSHIFT_KUBE_PING_NAMESPACE",
                                         "valueFrom": {
