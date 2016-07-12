@@ -394,7 +394,7 @@
                                         "value": "orderinput_q,processing_q,response_q"
                                     },
                                     {
-                                        "name": "JAVA_OPTS_APPEND"
+                                        "name": "JAVA_OPTS_APPEND",
                                         "value": "${ADDN_JAVA_APPEND}"
                                     },
                                     {
