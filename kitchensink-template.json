@@ -107,7 +107,7 @@
             "description": "Custom JVM Arguments",
             "name": "ADDN_JAVA_APPEND",
             "required": false
-        }
+        },
         {
             "description": "Generic build trigger secret",
             "name": "GENERIC_WEBHOOK_SECRET",
